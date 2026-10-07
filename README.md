@@ -42,7 +42,7 @@ Features
 •	Grades for each student
 •	Basic table layout using <table>, <tr>, <th>, and <td>
 
-6. Simple Blog Post Page - 
+6. Simple Blog Post Page - DONE
 Description
 This project simulates a basic blog post layout. It teaches how to use semantic HTML tags to structure content like titles, author, date, and article body.
 Features
@@ -51,7 +51,7 @@ Features
 •	Main article content with paragraphs
 •	Optional image and categories/tags section
 
-7. Product Landing Page
+7. Product Landing Page - DONE
 Description
 A simple landing page to showcase a product. This project helps beginners understand how to use HTML to present product information clearly and attractively.
 Features
@@ -59,7 +59,8 @@ Features
 •	Product image
 •	Description and features
 •	Price and call-to-action button
-8. Tribute Page
+
+8. Tribute Page - DONE
 Description
 A tribute page is a great beginner project to honor someone you admire. It helps you practice HTML structure and formatting, including headings, images, paragraphs, and lists.
 Features
@@ -68,7 +69,8 @@ Features
 •	Short biography or tribute message
 •	List of achievements or key facts
 •	Link to more information (e.g., Wikipedia)
-9. Photo Gallery Page
+
+9. Photo Gallery Page - DONE
 Description
 A photo gallery page showcases a collection of images in a simple, organized layout. This project helps you practice using <img> elements, alt text, and visual grouping using basic HTML.
 Features
@@ -76,7 +78,8 @@ Features
 •	Multiple images in a grid-like layout
 •	Alt text for accessibility
 •	Optional image captions
-10. Personal Portfolio Page
+
+10. Personal Portfolio Page - DONE
 Description
 A personal portfolio page highlights your skills, projects, and background. It’s ideal for practicing semantic HTML and organizing content for real-world use.
 Features
@@ -84,7 +87,8 @@ Features
 •	List of skills or technologies
 •	Showcase of personal projects (with links)
 •	Contact section or social media links
-11. Survey or Feedback Form
+
+11. Survey or Feedback Form - DONE
 Description
 This project helps you learn how to build HTML forms to collect user input. You'll create a simple survey or feedback form with different types of input fields.
 Features
@@ -93,6 +97,7 @@ Features
 •	Dropdown menu
 •	Textarea for open feedback
 •	Submit button
+
 12. Newsletter Signup Form
 Description
 This project focuses on creating a simple email subscription form for a newsletter. It’s a great exercise in collecting user input and structuring small, focused forms.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Feedback Form</title>
+</head>
+<body>
+    <!-- 
+        11. Survey or Feedback Form
+        Description
+        This project helps you learn how to build HTML forms to collect user input. You'll create a simple survey or feedback form with different types of input fields.
+        Features
+        •	Text input fields (name, email)
+        •	Radio buttons and checkboxes
+        •	Dropdown menu
+        •	Textarea for open feedback
+        •	Submit button
+    -->
+    <h1>Survey Form</h1>
+    <p> This is a simple survey form to collect feedback from users. 
+        <br>Please fill out the form below and submit your responses.</p>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>How did you hear about us?</label><br>
+        <input type="checkbox" id="friend" name="source" value="friend">
+        <label for="friend">Friend</label><br>
+        <input type="checkbox" id="social" name="source" value="social">
+        <label for="social">Social Media</label><br>
+        <input type="checkbox" id="search" name="source" value="search">
+        <label for="search">Search Engine</label><br><br>
+
+        <label>Rate your experience:</label><br>
+        <input type="radio" id="excellent" name="rating" value="excellent">
+        <label for="excellent">Excellent</label><br>
+        <input type="radio" id="good" name="rating" value="good">
+        <label for="good">Good</label><br>
+        <input type="radio" id="fair" name="rating" value="fair">
+        <label for="fair">Fair</label><br>
+        <input type="radio" id="poor" name="rating" value="poor">
+        <label for="poor">Poor</label><br><br>
+
+        <label for="dropdown">how do you like our service?</label><br>
+        <select name="dropdown" id="dropdown">
+            <option value="option1">Excelent</option>
+            <option value="option2">Good</option>
+            <option value="option3">Okay</option>
+        </select>
+        <br><br>
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="8" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
