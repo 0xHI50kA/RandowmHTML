@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comming Soon Page</title>
+</head>
+<body>
+    <!-- 
+        19. Coming Soon Landing Page
+        Description
+        A "Coming Soon" page is a placeholder for an upcoming website, product, or feature. It’s a good HTML project to practice layout, headings, and call-to-action elements.
+        Features
+        •	Eye-catching headline
+        •	Brief description or teaser
+        •	Email subscription input (optional)
+        •	Launch countdown (optional with JavaScript, not included here)    
+    -->
+
+    <h1>Christmas is Coming!</h1>
+    <p>Get ready for the most anticipated holiday event of the year! Santa is making his rounds and bringing presents for all. Stay tuned for the release date and exclusive sneak peeks!</p>
+    <img src="picture/profile9.gif" alt="Christmas Poster" height="200" width="200">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter to be the first to know when the movie is released!</p>
+    <form action="#" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" onclick="alert('Subscribe Successful!')">Subscribe</button>
+    </form>
+    <!-- countdown Timer -->
+    <div>
+        <h2>Coming soon!</h2>
+        <p>Countdown to the release date:</p>
+        <div id="countdown">
+            <span id="days">00</span> Days 
+            <span id="hours">00</span> Hours 
+            <span id="minutes">00</span> Minutes 
+            <span id="seconds">00</span> Seconds
+        </div>
+    </div>
+
+    <!-- <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("December 25 , 2026 00:00:00").getTime();
+
+        // Update the countdown every 1 second
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the respective elements
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            // If the countdown is finished, display a message
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "The movie has been released!";
+            }
+        }, 1000);
+    </script> -->
+</body>
+</html>

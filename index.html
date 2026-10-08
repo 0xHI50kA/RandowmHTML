@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Summary</title>
+    <link rel="icon" href="/picture/coffee-svgrepo-com.svg" type="image/x-icon">
+    <style> 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: white;
+        padding: 40px;
+    }
+    /* Page Header */
+    .header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .header h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .header p {
+        color: #aaa;
+        font-size: 16px;
+    }
+    /* Project Grid */
+    .project-container {
+        max-width: 1400px;
+        margin: auto;
+        display: grid;
+        /* 5 projects per row */
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+    /* Project Card */
+    .project {
+        background: #1d1d1d;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 20px;
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+        }
+    /* Hover Effect */
+    .project:hover {
+        transform: translateY(-5px);
+        border-color: #00ff99;
+        box-shadow: 0 5px 20px rgba(0, 255, 153, 0.2);
+    }
+    .project-number {
+        color: #00ff99;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .project h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    }
+    .project p {
+        color: #aaa;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .open-project {
+        margin-top: 15px;
+        color: #00ff99;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* Tablet */
+    @media (max-width: 1100px) 
+    {
+        .project-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    /* Mobile */
+    @media (max-width: 700px) {
+        body {
+            padding: 20px;
+        }
+        .project-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>HTML Projects</h1>
+        <p> A collection of 25 HTML and CSS projects </p>
+    </header>
+    <main class="project-container">
+        <!-- Project 01 -->
+        <a href="PersonalProfile.html" class="project">
+            <div> <span class="project-number"> PROJECT 01 </span>
+                <h2>Personal Profile</h2>
+                <p> A simple personal profile webpage created using HTML  </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 02 -->
+        <a href="SimpleResume.html" class="project">
+            <div> <span class="project-number"> PROJECT 02 </span>
+                <h2>Simple Resume</h2>
+                <p> A responsive resume layout created using HTML  </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 03 -->
+        <a href="MovieList.html" class="project">
+            <div> <span class="project-number"> PROJECT 03 </span>
+                <h2>Movie List</h2>
+                <p> A simple Movie List webpage created using HTML</p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 04 -->
+        <a href="BasicContactInfo.html" class="project">
+            <div> <span class="project-number"> PROJECT 04 </span>
+                <h2>Basic Contact Information</h2>
+                <p> A basic contact information page created with HTML. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 05 -->
+        <a href="TableWithGrades.html" class="project">
+            <div> <span class="project-number"> PROJECT 05 </span>
+                <h2>Table with Grades</h2>
+                <p> A simple table displaying student grades using HTML  </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 06 -->
+        <a href="BlogPostPage.html" class="project">
+            <div> <span class="project-number"> PROJECT 06 </span>
+                <h2>Blog Post Page</h2>
+                <p> A simple blog post layout created using HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 07 -->
+        <a href="project07/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 07 </span>
+                <h2>Product Page</h2>
+                <p> A simple product presentation webpage using HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 08 -->
+        <a href="project08/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 08 </span>
+                <h2>Pricing Table</h2>
+                <p> A responsive pricing table created with CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 09 -->
+        <a href="project09/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 09 </span>
+                <h2>Contact Form</h2>
+                <p> A basic contact form using HTML form elements. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 10 -->
+        <a href="project10/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 10 </span>
+                <h2>Landing Page</h2>
+                <p> A simple landing page layout using HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 11 -->
+        <a href="project11/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 11 </span>
+                <h2>Portfolio</h2>
+                <p> A simple developer portfolio webpage. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 12 -->
+        <a href="project12/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 12 </span>
+                <h2>Blog Layout</h2>
+                <p> A basic blog page structure using semantic HTML. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 13 -->
+        <a href="project13/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 13 </span>
+                <h2>FAQ Section</h2>
+                <p> A simple frequently asked questions section. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 14 -->
+        <a href="project14/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 14 </span>
+                <h2>Photo Card</h2>
+                <p> A profile photo card designed with HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 15 -->
+        <a href="project15/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 15 </span>
+                <h2>Responsive Layout</h2>
+                <p> A responsive webpage demonstrating CSS media queries. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 16 -->
+        <a href="project16/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 16 </span>
+                <h2>Dashboard</h2>
+                <p> A simple dashboard interface using HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 17 -->
+        <a href="project17/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 17 </span>
+                <h2>Timeline</h2>
+                <p> A vertical timeline layout created with CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 18 -->
+        <a href="project18/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 18 </span>
+                <h2>Skills Section</h2>
+                <p> A simple developer skills presentation. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 19 -->
+        <a href="project19/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 19 </span>
+                <h2>Resume Page</h2>
+                <p> A resume layout created using semantic HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 20 -->
+        <a href="project20/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 20 </span>
+                <h2>Event Page</h2>
+                <p> A simple event information webpage. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 21 -->
+        <a href="project21/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 21 </span>
+                <h2>Testimonial</h2>
+                <p> A testimonial card layout using HTML and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 22 -->
+        <a href="project22/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 22 </span>
+                <h2>Footer Design</h2>
+                <p> A modern responsive footer layout. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 23 -->
+        <a href="project23/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 23 </span>
+                <h2>Hero Section</h2>
+                <p> A modern hero section for a website landing page. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 24 -->
+        <a href="project24/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 24 </span>
+                <h2>CSS Animation</h2>
+                <p> A collection of simple CSS animation techniques. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+        <!-- Project 25 -->
+        <a href="project25/index.html" class="project">
+            <div> <span class="project-number"> PROJECT 25 </span>
+                <h2>Simple Image Slider</h2>
+                <p> A JavaScript-free image slider using HTML radio buttons and CSS. </p>
+            </div> <span class="open-project"> Open Project → </span> </a>
+    </main>
+</body>
+
+</html>

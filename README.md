@@ -10,7 +10,7 @@ Features
 •	Links to social media profiles
 2. Simple Resume Page - DONE
 Description
-Build a clean, static resume using just HTML. This project introduces semantic HTML elements like <section>, <header>, and <footer> to organize content logically.
+Build a clean, static resume using just HTML. This project introduces semantic HTML elements like section, header, and footer to organize content logically.
 Features
 •	Name and job title
 •	Contact information
@@ -73,7 +73,7 @@ Features
 
 9. Photo Gallery Page - DONE
 Description
-A photo gallery page showcases a collection of images in a simple, organized layout. This project helps you practice using <img> elements, alt text, and visual grouping using basic HTML.
+A photo gallery page showcases a collection of images in a simple, organized layout. This project helps you practice using img elements, alt text, and visual grouping using basic HTML.
 Features
 •	Page title and optional description
 •	Multiple images in a grid-like layout
@@ -159,7 +159,7 @@ Features
 •	An embedded responsive YouTube video
 •	Clean layout using semantic HTML
 
-19. Coming Soon Landing Page
+19. Coming Soon Landing Page - DONE
 Description
 A "Coming Soon" page is a placeholder for an upcoming website, product, or feature. It’s a good HTML project to practice layout, headings, and call-to-action elements.
 Features
@@ -167,42 +167,48 @@ Features
 •	Brief description or teaser
 •	Email subscription input (optional)
 •	Launch countdown (optional with JavaScript, not included here)
-20. HTML FAQ Page
+
+20. HTML FAQ Page - Done
 Description
-An FAQ (Frequently Asked Questions) page provides answers to common questions about a product, service, or website. This project helps you practice organizing text content using semantic HTML elements like <details> and <summary> for collapsible sections.
+An FAQ (Frequently Asked Questions) page provides answers to common questions about a product, service, or website. This project helps you practice organizing text content using semantic HTML elements like details and summary for collapsible sections.
 Features
 •	Collapsible question-and-answer format
 •	Semantic, accessible HTML
 •	Easy to style and expand
-21. Basic HTML Page with Audio Player
+
+21. Basic HTML Page with Audio Player - DONE
 Description
-This project demonstrates how to embed and play audio files in a web page using the HTML <audio> element. It’s perfect for learning how to work with multimedia in web development.
+This project demonstrates how to embed and play audio files in a web page using the HTML audio element. It’s perfect for learning how to work with multimedia in web development.
 Features
 •	Embedded audio player with controls
 •	Simple and clean layout
 •	Supports multiple audio formats for compatibility
-22. Simple HTML Page with Google Maps Embed
+
+22. Simple HTML Page with Google Maps Embed - DONE
 Description
 This project shows how to embed a Google Map on your webpage. It's a common feature for contact pages, business locations, event directions, and more.
 Features
 •	Embedded responsive Google Map
 •	Clean and centered layout
 •	Customizable location
-23. 404 Error Page
+
+23. 404 Error Page - DONE
 Description
 A custom 404 error page improves user experience by guiding visitors when they land on a non-existent or broken link. This project helps you build a user-friendly and stylish fallback page using only HTML and CSS.
 Features
 •	Clear "Page Not Found" message
 •	Custom styling and layout
 •	A link to return to the homepage
-24. HTML Page with Table of Contents
+
+24. HTML Page with Table of Contents - DONE
 Description
 This project demonstrates how to create a table of contents (TOC) that links to sections within the same HTML page. It’s useful for documentation, guides, long articles, or tutorials.
 Features
 •	Clickable internal links (anchor links)
 •	Organized sections with corresponding IDs
 •	Semantic headings for structure and accessibility
-25. Simple Image Slider (Manual HTML Version)
+
+25. Simple Image Slider (Manual HTML Version) - DONE
 Description
 This project demonstrates a basic image slider built with pure HTML and a touch of CSS. It’s a great way to showcase photos or banners without using JavaScript.
 Features

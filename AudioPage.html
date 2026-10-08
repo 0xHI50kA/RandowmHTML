@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Audio Page</title>
+</head>
+<body>
+    <!-- 
+        21. Basic HTML Page with Audio Player
+        Description
+        This project demonstrates how to embed and play audio files in a web page using the HTML audio element. It’s perfect for learning how to work with multimedia in web development.
+        Features
+        •	Embedded audio player with controls
+        •	Simple and clean layout
+        •	Supports multiple audio formats for compatibility
+    -->
+    <div style="border: 10px solid #ccc; padding: 20px; margin: 20px; text-align: center;">
+        <h1>Listen to Your Favorite Tunes</h1>
+        <p>Enjoy a selection of audio tracks directly from your browser. Use the controls to play, pause, and adjust the volume.</p>
+        <audio controls>
+            <source src="Audio/sorry.mp3" type="audio/mpeg">
+            <source src="Audio/sample.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio controls>
+            <source src="Audio/sorry.mp3" type="audio/mpeg">
+            <source src="Audio/sample2.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>
