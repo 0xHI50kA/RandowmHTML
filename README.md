@@ -33,14 +33,15 @@ Features
 •	Email and phone number
 •	Physical address
 •	Social media or personal website link
+
 5. HTML Table with Student Grades - DONE
 Description
-This project helps you learn how to structure tabular data using HTML <table> elements. You’ll build a simple student grades report with rows and columns.
+This project helps you learn how to structure tabular data using HTML table elements. You’ll build a simple student grades report with rows and columns.
 Features
 •	Table header row
 •	Student names and subjects
 •	Grades for each student
-•	Basic table layout using <table>, <tr>, <th>, and <td>
+•	Basic table layout using table, tr, th, and td
 
 6. Simple Blog Post Page - DONE
 Description
