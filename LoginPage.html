@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Page</title>
+</head>
+<body>
+    <!-- 
+        16. Simple Login Page (Front-End Only) 
+        Description
+        This project focuses on building a basic login page using HTML. While it doesn’t include backend logic, it’s a useful exercise in form structure and input types — a common UI element in many web apps.
+        Features
+        •	Username/email and password fields
+        •	Submit button
+        •	Optional “remember me” checkbox
+        •	Clear structure for later backend integration
+    -->
+    <div style="text-align: center;border: 5px solid #ccc; padding: 20px;background-color:antiquewhite; width: 350px; display: flex; justify-content: center; margin: 0 auto; margin-top: 50px;align-items: center;">
+        
+        <form action="">
+            <h1>Login</h1>
+            <label for="username"><strong>Username or Email:</strong></label>
+            <br>
+            <input type="text" id="username" name="username" placeholder="Enter your username or email" required>
+            <br><br>
+            <label for="password"><strong>Password:</strong></label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember me</label>
+            <br><br>
+            <button type="submit" onclick="alert('Login Successfull')">Login</button>
+        </form>
+    </div>
+</body>
+</html>

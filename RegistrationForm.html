@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Registration Form</title>
+</head>
+<body>
+    <!-- 
+        17. Basic Registration Form
+        Description
+        A registration form allows users to create an account by entering personal details. This project helps you practice form inputs, validation requirements, and organizing content using HTML.
+        Features
+        •	Fields for full name, email, password, and confirm password
+        •	Required input validation
+        •	Basic form structure ready for backend integration
+    -->
+    <div style="text-align: center;border: 5px solid #ccc; padding: 20px;background-color:antiquewhite; width: 350px; display: flex; justify-content: center; margin: 0 auto; margin-top: 50px;align-items: center;">
+        <form action="">
+            <h1>Register</h1>
+            <label for="fullname"><strong>Full Name:</strong></label>
+            <br>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="email"><strong>Email:</strong></label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="password"><strong>Password:</strong></label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+            <label for="confirm_password"><strong>Confirm Password:</strong></label>
+            <br>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+            <br><br>
+            <button type="submit" onclick="alert('Registered Successfully')">Register</button>
+        </form>
+    
+</body>
+</html>

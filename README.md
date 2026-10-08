@@ -98,7 +98,7 @@ Features
 •	Textarea for open feedback
 •	Submit button
 
-12. Newsletter Signup Form
+12. Newsletter Signup Form - DONE
 Description
 This project focuses on creating a simple email subscription form for a newsletter. It’s a great exercise in collecting user input and structuring small, focused forms.
 Features
@@ -106,7 +106,8 @@ Features
 •	Name input (optional)
 •	Submit button
 •	Placeholder for confirmation or success message (to enhance later with JavaScript)
-13. Simple Event Invitation Page
+
+13. Simple Event Invitation Page - DONE
 Description
 Create a clean and informative event invitation page. This project helps you practice organizing content like dates, times, locations, and event details using basic HTML.
 Features
@@ -114,7 +115,8 @@ Features
 •	Date and time
 •	Location details
 •	RSVP button or link
-14. Recipe Page
+
+14. Recipe Page - DONE
 Description
 A recipe page is a great HTML project to practice using headings, lists, and semantic structure. It displays ingredients and step-by-step cooking instructions in a readable format.
 Features
@@ -122,14 +124,16 @@ Features
 •	List of ingredients
 •	Step-by-step cooking directions
 •	Optional image of the dish
-15. Event Schedule Page
+
+15. Event Schedule Page - DONE
 Description
 An event schedule page displays the agenda or timeline of an event. This project helps you practice creating structured layouts using HTML tables or lists.
 Features
 •	Event name and date
 •	List or table of sessions/talks/workshops
 •	Time, title, and speaker (if any) for each session
-16. Simple Login Page (Front-End Only)
+
+16. Simple Login Page (Front-End Only) - DONE
 Description
 This project focuses on building a basic login page using HTML. While it doesn’t include backend logic, it’s a useful exercise in form structure and input types — a common UI element in many web apps.
 Features
@@ -137,20 +141,23 @@ Features
 •	Submit button
 •	Optional “remember me” checkbox
 •	Clear structure for later backend integration
-17. Basic Registration Form
+
+17. Basic Registration Form - DONE
 Description
 A registration form allows users to create an account by entering personal details. This project helps you practice form inputs, validation requirements, and organizing content using HTML.
 Features
 •	Fields for full name, email, password, and confirm password
 •	Required input validation
 •	Basic form structure ready for backend integration
-18. HTML Page with Embedded YouTube Video
+
+18. HTML Page with Embedded YouTube Video - DONE
 Description
 This project shows how to embed a YouTube video using HTML. It’s simple yet useful when creating blogs, tutorials, or landing pages that feature multimedia content.
 Features
 •	A descriptive title and introduction
 •	An embedded responsive YouTube video
 •	Clean layout using semantic HTML
+
 19. Coming Soon Landing Page
 Description
 A "Coming Soon" page is a placeholder for an upcoming website, product, or feature. It’s a good HTML project to practice layout, headings, and call-to-action elements.
