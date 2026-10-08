@@ -8,6 +8,7 @@ Features
 •	Name and short bio
 •	List of hobbies or interests
 •	Links to social media profiles
+
 2. Simple Resume Page - DONE
 Description
 Build a clean, static resume using just HTML. This project introduces semantic HTML elements like section, header, and footer to organize content logically.
@@ -17,6 +18,7 @@ Features
 •	Summary or objective
 •	Education and work experience
 •	Skills list
+
 3. Favorite Books or Movies List - DONE
 Description
 This project displays a simple list of your favorite books or movies. It's perfect for learning how to use HTML elements like headings, paragraphs, and unordered/ordered lists to organize content.
